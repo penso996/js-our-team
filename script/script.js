@@ -43,7 +43,7 @@ const teamContainer = document.getElementById("team-container");
 // ITERO SU OGNI ELEMENTO DELL'ARRAY (MEMBRI DEL TEAM) E GENERO DELL'HTML
 teamMembers.forEach(function (member) {
   const cardHTML = `
-  <div class="col-12 col-md-6 col-lg-4">
+  <div class="col-12 col-md-6 col-lg-4 p-2">
     <div class="bg-black d-flex align-items-center">
       <img src="${member.img}" style="width: 100px; height: 100px; object-fit: cover;" class="me-3">
       <div>
