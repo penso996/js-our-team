@@ -36,3 +36,6 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+// SELEZIONO GLI ELEMENTI NEL DOM
+const teamContainer = document.getElementById("team-container");
